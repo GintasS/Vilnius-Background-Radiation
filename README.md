@@ -3,6 +3,7 @@
 <h3> CHANGELOG 12/12/2018</h3>
 <ul>
   <li> Project was rewriten, 20% less code.</li>
+  <li> Translation from LT to EN</li>
   <li> Upgraded from amCharts 3 to amCharts 4.</li>
   <li> Updated web-scraping code to be more robust.</li>
   <li> Math calculations now are done on server-side.</li>
