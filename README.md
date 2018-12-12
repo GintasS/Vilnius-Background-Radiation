@@ -2,12 +2,12 @@
 
 <p> This is: Vilnius background radiation, where you can find daily radiation values in Vilnius city!<br>
 Here I website posts radiation statistics and analysis.<br><br>
-			We get Vilnius radiation data from here: <a href="https://www.facebook.com/VilniausRadiacinisFonas/" target="_blank">facebook.com</a>,<br>
-				Vilnius weather data from here: <a href="http://www.accuweather.com/lt/" target="_blank">accuweather.com</a>,<br>
-				Solar flux data(or Sun data) from here: <a href="ftp://ftp.geolab.nrcan.gc.ca/data/solar_flux/daily_flux_values/fluxtable.txt" target="_blank">nrcan.gc.ca</a>,<br>
-				Day length data from here:<a href="https://day.lt/diena/" target="_blank">day.lt</a>.<br>
-			Background photos are from: <a href="https://www.facebook.com/gintaras.sphotography/" target="_blank">facebook.com</a>.
-			</p>
+We get Vilnius radiation data from here: <a href="https://www.facebook.com/VilniausRadiacinisFonas/" target="_blank">facebook.com</a>,<br>
+Vilnius weather data from here: <a href="http://www.accuweather.com/lt/" target="_blank">accuweather.com</a>,<br>
+Solar flux data(or Sun data) from here: <a href="ftp://ftp.geolab.nrcan.gc.ca/data/solar_flux/daily_flux_values/fluxtable.txt" target="_blank">nrcan.gc.ca</a>,<br>
+Day length data from here:<a href="https://day.lt/diena/" target="_blank">day.lt</a>.<br>
+Background photos are from: <a href="https://www.facebook.com/gintaras.sphotography/" target="_blank">facebook.com</a>.
+
 </p>
 
 
