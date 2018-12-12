@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+	<meta charset="UTF-8"/>
+
+    <title>Vilnius background radiation</title>
+	
+	<!--- CSS includes --->
+	<link rel="stylesheet" href="css/bootstrap.min.css"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+	integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>	
+    <link href="css/lora.css" rel="stylesheet" type="text/css"/>
+    <link href="css/montserrat.css" rel="stylesheet" type="text/css"/>
+    <link href="css/grayscale.css" rel="stylesheet" type="text/css"/>	
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<!--- Navigation bar --->
+<body>
+    <nav class="navbar navbar-custom navbar-fixed-top">
+		<div class="container">
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+				Menu <i class="fa fa-bars"></i>
+			</button>
+			<a class="navbar-brand page-scroll" href="http://vilniausfonas.info/en/radiation/#page-top">
+			 vilniausfonas.info
+			</a>
+		  </div>
+		  <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+			<ul class="nav navbar-nav">
+			  <li class="hidden active"><a href="#page-top"></a></li>
+			  <li><a class="page-scroll" href="#statistics">Statistics</a></li>
+			  <li><a class="page-scroll" href="#monthStatistics">Month statistics</a></li>
+			  <li><a class="page-scroll" href="#analysis">Analysis</a></li>
+			</ul>
+		  </div>
+		</div>
+  </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+		<div class="intro-body">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-10 col-md-offset-1">
+				<h2 class="brand-heading">Vilnius radiation</h2>
+				<p class="intro-text">Welcome to Vilnius radiation page!<br>
+				This page autonomously publishes Vilnius background radiation data, <br> statistics
+				and analysis.<br><br>
+				Data is presented in these 
+				<i class="far fa-chart-bar"></i> 
+				<i class="fas fa-chart-line"></i>
+				<i class="fa fa-table"></i> forms.<br>
+				Data is updated daily.<i class="fas fa-sync-alt"></i><br>
+				</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+    </header>
+
+  
+    <section class="content-section text-center">
+		<div class="download-section2">
+		  <div class="container">
+			<div class="col-lg-10 col-lg-offset-1">
+				<p >
+					<br><br><br>
+				</p>
+			</div>
+		  </div>
+		</div>
+   </section>
+   
+     <!--- Statistics section --->
+    <section id="statistics" class="container content-section text-center">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<h3>Statistics</h3>
+				<div id="mainStats">		
+					<button class='col' id="mainChartBTN" data-toggle="collapse" data-target="#mainChartCOL">
+						Press here to open a chart.
+						<i class='fa fa-line-chart' aria-hidden='true'></i>			
+					</button>
+					<div id="mainChartCOL" class="collapse">
+						<div id="chartMain"></div>
+					</div><br>
+						
+					<div id ="chartMainStats"></div>
+					
+					<h3>Additional charts</h3>
+					
+					<button class='btn-primary' id="allAddCharts" data-toggle="collapse" data-target="#allAddChartsCOL">
+						Press here to open/close additional charts.
+						<i class='fa fa-line-chart' aria-hidden='true'></i>			
+					</button>
+
+					<div id="allAddChartsCOL" class="collapse">
+						<br><br><h3>Measurement distribution by day interval </h3>
+						<button class='col' id="addChart1BTN" data-toggle="collapse" data-target="#addChart1COL">
+							Press here to open a chart.
+							<i class='fa fa-line-chart' aria-hidden='true'></i>			
+						</button>
+						<div id="addChart1COL" class="collapse">
+							<div id="addChart1"></div>
+						</div><br>
+						
+						<br><h3>Radiation mean by weekday</h3>	
+						<button class='col' id="addChart2BTN" data-toggle="collapse" data-target="#addChart2COL">
+							Press here to open a chart.
+							<i class='fa fa-line-chart' aria-hidden='true'></i>			
+						</button>
+						<div id="addChart2COL" class="collapse">
+							<div id="addChart2"></div>
+						</div><br>
+					
+						<br><h3>Measurement distribution for every weekday </h3>	
+						<button class='col' id="addChart3BTN" data-toggle="collapse" data-target="#addChart3COL">
+							Press here to open a chart.
+							<i class='fa fa-line-chart' aria-hidden='true'></i>			
+						</button>
+						<div id="addChart3COL" class="collapse">
+							<div id="addChart3"></div>
+						</div><br>			
+						
+						<br><h3>Radiation value frequency </h3>	
+						<button class='col' id="addChart4BTN" data-toggle="collapse" data-target="#addChart4COL">
+							Press here to open a chart.
+							<i class='fa fa-line-chart' aria-hidden='true'></i>			
+						</button>
+						<div id="addChart4COL" class="collapse">
+							<div id="addChart4"></div>
+						</div><br>				
+									
+						<br><h3>Radiation mean for every month </h3>	
+						<button class='col' id="addChart5BTN" data-toggle="collapse" data-target="#addChart5COL">
+							Press here to open a chart.
+							<i class='fa fa-line-chart' aria-hidden='true'></i>			
+						</button>
+						<div id="addChart5COL" class="collapse">
+							<div id="addChart5"></div>
+						</div><br>				
+									
+						<br><h3>Measurement count by month </h3>	
+						<button class='col' id="addChart6BTN" data-toggle="collapse" data-target="#addChart6COL">
+							Press here to open a chart.
+							<i class='fa fa-line-chart' aria-hidden='true'></i>			
+						</button>
+						<div id="addChart6COL" class="collapse">
+							<div id="addChart6"></div>
+						</div><br>				
+						
+						<br><h3>Lowest radiation by month </h3>	
+						<button class='col' id="addChart7BTN" data-toggle="collapse" data-target="#addChart7COL">
+							Press here to open a chart.
+							<i class='fa fa-line-chart' aria-hidden='true'></i>			
+						</button>
+						<div id="addChart7COL" class="collapse">
+							<div id="addChart7"></div>
+						</div><br>	
+						
+						<br><h3>Highest radiation by month </h3>	
+						<button class='col' id="addChart8BTN" data-toggle="collapse" data-target="#addChart8COL">
+							Press here to open a chart.
+							<i class='fa fa-line-chart' aria-hidden='true'></i>			
+						</button>
+						<div id="addChart8COL" class="collapse">
+							<div id="addChart8"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+   <section class="content-section text-center">
+		<div class="download-section3">
+		  <div class="container">
+			<div class="col-lg-10 col-lg-offset-1">
+				<p> <br><br><br> </p>
+			</div>
+		  </div>
+		</div>
+   </section>
+
+   <!-- Month statistics section -->
+   <section id="monthStatistics" class="container content-section text-center">
+		<div class="row">
+		  <div class="col-lg-10 col-lg-offset-1">
+			<h3>Month statistics</h3>
+			<div id="monthStats">
+			
+			<div class="dropdown">
+			  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" 
+			  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				Select a year
+				<span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+			  </ul>
+			</div>
+				
+			</div>
+		  </div>
+		</div>
+   </section>
+
+   
+   <section class="content-section text-center">
+		<div class="download-section4">
+		  <div class="container">
+			<div class="col-lg-10 col-lg-offset-1">
+				<p> <br><br><br> </p>
+			</div>
+		  </div>
+		</div>
+   </section>
+  
+    <!--- Analysis section --->
+    <section id="analysis" class="container content-section text-center">
+		<div class="row">
+		    <div class="col-lg-10 col-lg-offset-1">
+			    <h3>Analysis</h3>
+			    <div id="analysisStats">
+				  
+				  <button class='col' id="analysisMainBTN" data-toggle="collapse" data-target="#analysisMainCOL">
+						Press here to open a chart.
+						<i class='fa fa-line-chart' aria-hidden='true'></i>			
+				  </button>
+				  <div id="analysisMainCOL" class="collapse">
+						<div id="analysisMain"></div>
+				  </div><br>
+							
+					<br><h3> Correlation</h3>
+					<table class="table">
+						<tbody>
+							<tr>
+								<td class="col-md-4">Correlation between radiation and precipitation (percentage)</td>
+								<td class="col-md-4">Correlation between radiation and Solar flux (percentage)</td>
+								<td class="col-md-4">Correlation between radiation and Day length (percentage)</td>								
+							</tr>
+							<tr>						
+								<td class="col-md-4">
+									<button class='col1' id="analysisMain1BTN" data-toggle="collapse" data-target="#analysisMain1COL">
+										Press here to open a chart.
+										<i class='fa fa-line-chart' aria-hidden='true'></i>			
+									</button>				
+									<div id="analysisMain1COL" class="collapse">
+										<div id="analysisMainChart1"></div>
+									</div>
+								</td>
+								<td class="col-md-4">
+									<button class='col1' id="analysisMain2BTN" data-toggle="collapse" data-target="#analysisMain2COL">
+										Press here to open a chart.
+										<i class='fa fa-line-chart' aria-hidden='true'></i>			
+									</button>				
+									<div id="analysisMain2COL" class="collapse">
+										<div id="analysisMainChart2"></div>
+									</div>
+								</td>				
+								<td class="col-md-4">
+									<button class='col1' id="analysisMain3BTN" data-toggle="collapse" data-target="#analysisMain3COL">
+										Press here to open a chart.
+										<i class='fa fa-line-chart' aria-hidden='true'></i>			
+									</button>				
+									<div id="analysisMain3COL" class="collapse">
+										<div id="analysisMainChart3"></div>
+									</div>
+								</td>					
+							</tr>
+							<tr>
+								<td class="col-md-4">Correlation strength:<br><font id="analysisStrength1"></font></td>
+								<td class="col-md-4">Correlation strength:<br><font id="analysisStrength2"></font></td>
+								<td class="col-md-4">Correlation strength:<br><font id="analysisStrength3"></font></td>
+							</tr>
+						</tbody>
+					</table>
+					
+					<h3> Radiation </h3>
+					<button class='col' id="analysis1BTN" data-toggle="collapse" data-target="#analysis1COL">
+						Press here to open a chart.
+						<i class='fa fa-line-chart' aria-hidden='true'></i>			
+					</button>
+					<div id="analysis1COL" class="collapse">
+						<div id="analysis1"></div>
+					</div><br>
+					<br><h3> Precipitation </h3>
+					<button class='col' id="analysis2BTN" data-toggle="collapse" data-target="#analysis2COL">
+						Press here to open a chart.
+						<i class='fa fa-line-chart' aria-hidden='true'></i>					
+					</button>
+					<div id="analysis2COL" class="collapse">
+						<div id="analysis2"></div>
+					</div><br>
+					<br><h3> Solar flux </h3>
+					<button class='col' id="analysis3BTN" data-toggle="collapse" data-target="#analysis3COL">
+						Press here to open a chart.
+						<i class='fa fa-line-chart' aria-hidden='true'></i>
+					</button>
+					<div id="analysis3COL" class="collapse">
+						<div id="analysis3"></div>
+					</div><br>
+					<br><h3> Day length </h3>
+					<button class='col' id="analysis4BTN" data-toggle="collapse" data-target="#analysis4COL">
+						Press here to open a chart.
+						<i class='fa fa-line-chart' aria-hidden='true'></i>			
+					</button>
+					<div id="analysis4COL" class="collapse">
+						<div id="analysis4"></div>
+					</div>			
+			    </div>
+		    </div>
+		</div>
+    </section>
+
+    <footer>
+		<div class="container text-center">
+			<p>Copyright © vilniausfonas.info 2016-2018 m.<br>
+			We get Vilnius radiation data from here: <a href="https://www.facebook.com/VilniausRadiacinisFonas/" target="_blank">facebook.com</a>,<br>
+				Vilnius weather data from here: <a href="http://www.accuweather.com/lt/" target="_blank">accuweather.com</a>,<br>
+				Solar flux data(or Sun data) from here: <a href="ftp://ftp.geolab.nrcan.gc.ca/data/solar_flux/daily_flux_values/fluxtable.txt" target="_blank">nrcan.gc.ca</a>,<br>
+				Day length data from here:<a href="https://day.lt/diena/" target="_blank">day.lt</a>.<br>
+			Background photos are from: <a href="https://www.facebook.com/gintaras.sphotography/" target="_blank">facebook.com</a>.
+			</p>
+			<br>
+			<a href="http://www.accuweather.com/lt/" target="_blank"><img src="img/aw.png" id="aw"></img></a>
+		</div>
+    </footer>
+
+  <!--- Scripts --->
+  <script src="include/jquery.js"></script>
+  <script src="include/jquery.easing.min.js"></script>
+  <script src="include/bootstrap.min.js"</script>
+  <script src="include/grayscale.js"></script>
+  <script src="include/grayscale.min.js"></script>
+  <script src="include/moment.js"></script>
+
+  <script src="amcharts/core.js"></script>
+  <script src="amcharts/charts.js"></script> 
+  <script src="amcharts/animated.js"></script>
+  
+  <script src="js/initcharts.js"></script>
+  <script src="js/charts.js"></script>  
+  <script src="js/main.js"></script>   
+
+  <script>
+	$(document).ready(function ()
+	{
+		getDataFromServer([
+		"math.php",
+		"showweather.php",
+		"showsun.php",
+		"showday.php",
+		"showradiation.php"
+		],0);	
+	});
+  </script>
+
+</body>
+</html>
