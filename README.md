@@ -21,7 +21,7 @@ You can visit website here: <a href="http://vilniausfonas.info/en/radiation/" ta
 <ul>
   <li>Radiation data - <a href="https://www.facebook.com/VilniausRadiacinisFonas/" target="_blank">facebook.com</a></li>
   <li>Weather data - <a href="http://www.accuweather.com/lt/" target="_blank">accuweather.com</a></li>
-  <li>Solar flux data(or Sun data) - <a href="ftp://ftp.geolab.nrcan.gc.ca/data/solar_flux/daily_flux_values/fluxtable.txt" target="_blank">nrcan.gc.ca</a></li>
+  <li>Solar flux data(or Sun data) - <a href="ftp://ftp.geolab.nrcan.gc.ca/data/solar_flux/daily_flux_values/fluxtable.txt" target="_blank">https://www.nrcan.gc.ca/</a></li>
   <li>Day length data from here: <a href="https://day.lt/diena/" target="_blank">day.lt</a></li>
   <li>Background photos - <a href="http://vilniausfonas.info/en/radiation/" target="_blank">url</a></li>
 </ul>
