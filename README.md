@@ -1,15 +1,50 @@
-# Vilnius Background Radiation 
+<div align="center">
+  <h2>Vilnius background radiation</h2>
+</div>
+
+## Jump to...
+
+  - [Intro](#intro)
+  - [Data sources](#datasources)
+  - [Media](#media)
+  - [Changelog](#changelog)
+  
+## <a name="Intro"></a>Intro
 
 <p>This is a scientific project about Vilnius background radiation, where you can find daily radiation values for Vilnius city!<br>
-Here the website posts radiation data statistics and analysis.<br><br>
-We get Vilnius radiation data from here: <a href="https://www.facebook.com/VilniausRadiacinisFonas/" target="_blank">facebook.com</a>,<br>
-Vilnius weather data from here: <a href="http://www.accuweather.com/lt/" target="_blank">accuweather.com</a>,<br>
-Solar flux data(or Sun data) from here: <a href="ftp://ftp.geolab.nrcan.gc.ca/data/solar_flux/daily_flux_values/fluxtable.txt" target="_blank">nrcan.gc.ca</a><br>
-Day length data from here:<a href="https://day.lt/diena/" target="_blank">day.lt</a>.<br>
-Background photos are from: <a href="https://www.facebook.com/gintaras.sphotography/" target="_blank">facebook.com</a>.
-<br><br>
-  You can visit website here: <a href="http://vilniausfonas.info/en/radiation/" target="_blank">url</a>
+Here the website posts radiation data statistics and analysis.<br>
+You can visit website here: <a href="http://vilniausfonas.info/en/radiation/" target="_blank">url</a>
 </p>
+
+## <a name="Data sources"></a>Data sources
+
+<ul>
+  <li>Radiation data - <a href="https://www.facebook.com/VilniausRadiacinisFonas/" target="_blank">facebook.com</a></li>
+  <li>Weather data - <a href="http://www.accuweather.com/lt/" target="_blank">accuweather.com</a></li>
+  <li>Solar flux data(or Sun data) - <a href="ftp://ftp.geolab.nrcan.gc.ca/data/solar_flux/daily_flux_values/fluxtable.txt" target="_blank">nrcan.gc.ca</a></li>
+  <li>Day length data from here: <a href="https://day.lt/diena/" target="_blank">day.lt</a></li>
+  <li>Background photos - <a href="http://vilniausfonas.info/en/radiation/" target="_blank">url</a></li>
+</ul>
+
+## <a name="Media"></a>Media
+
+<a target="_blank" href="https://github.com/GintasS/VilniusBackgroundRadiation/blob/master/images/image1.JPG">
+  <img src="https://github.com/GintasS/VilniusBackgroundRadiation/blob/master/images/image1.JPG" height="400" style="max-width:100%;">
+</a>
+<blockquote>Picture(taken in 4/24/2019)</blockquote>
+<br><br>
+<a target="_blank" href="https://github.com/GintasS/VilniusBackgroundRadiation/blob/master/images/image2.JPG">
+  <img src="https://github.com/GintasS/VilniusBackgroundRadiation/blob/master/images/image2.JPG" height="400" style="max-width:100%;">
+</a>
+<blockquote>Picture(taken in 4/24/2019)</blockquote>
+<br><br>
+<a target="_blank" href="https://github.com/GintasS/VilniusBackgroundRadiation/blob/master/images/image3.JPG">
+  <img src="https://github.com/GintasS/VilniusBackgroundRadiation/blob/master/images/image3.JPG" height="400" style="max-width:100%;">
+</a>
+<blockquote>Picture(taken in 4/24/2019)</blockquote>
+
+
+## <a name="Changelog"></a>Changelog
 
 <h3> CHANGELOG 12/12/2018</h3>
 <ul>
