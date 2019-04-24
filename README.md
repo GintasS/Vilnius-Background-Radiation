@@ -5,7 +5,7 @@
 ## Jump to...
 
   - [Intro](#intro)
-  - [Data sources](#datasources)
+  - [Data sources](#data sources)
   - [Media](#media)
   - [Changelog](#changelog)
   
