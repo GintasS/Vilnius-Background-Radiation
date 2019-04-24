@@ -5,7 +5,7 @@
 ## Jump to...
 
   - [Intro](#intro)
-  - [Data sources](#data sources)
+  - [Sources](#sources)
   - [Media](#media)
   - [Changelog](#changelog)
   
@@ -16,7 +16,7 @@ Here the website posts radiation data statistics and analysis.<br>
 You can visit website here: <a href="http://vilniausfonas.info/en/radiation/" target="_blank">url</a>
 </p>
 
-## <a name="Data sources"></a>Data sources
+## <a name="Sources"></a>Sources
 
 <ul>
   <li>Radiation data - <a href="https://www.facebook.com/VilniausRadiacinisFonas/" target="_blank">facebook.com</a></li>
