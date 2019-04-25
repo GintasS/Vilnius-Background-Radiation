@@ -5,7 +5,6 @@
 ## Jump to...
 
   - [Intro](#intro)
-  - [Sources](#sources)
   - [Media](#media)
   - [Changelog](#changelog)
   
@@ -42,7 +41,6 @@ You can visit website here: <a href="http://vilniausfonas.info/en/radiation/" ta
   <img src="https://github.com/GintasS/VilniusBackgroundRadiation/blob/master/images/image3.JPG" height="400" style="max-width:100%;">
 </a>
 <blockquote>Picture(taken in 4/24/2019)</blockquote>
-
 
 ## <a name="Changelog"></a>Changelog
 
