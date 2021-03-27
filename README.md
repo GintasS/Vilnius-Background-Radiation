@@ -12,7 +12,8 @@
 ## <a name="Intro"></a>Intro
 
 <p>This is a scientific project about Vilnius background radiation, where you can find daily radiation values for Vilnius City!<br>
-This website posts radiation data, statistics and analysis.<br>
+This website posts radiation data, statistics and analysis.
+  
 You can visit this website here: <a href="http://radiation.gsvedas.com/" target="_blank">url</a>.
 </p>
 
