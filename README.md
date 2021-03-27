@@ -47,12 +47,18 @@ You can visit website here: <a href="http://radiation.gsvedas.com/" target="_bla
 
 <h3> CHANGELOG 12/12/2018</h3>
 <ul>
-  <li> The Project was rewritten, 20% less code.</li>
-  <li> Translation from LT to EN.</li>
-  <li> Upgraded from amCharts 3 to amCharts 4.</li>
-  <li> Updated web-scraping code to be more robust.</li>
-  <li> Math calculations now are done on server-side.</li>
-  <li> Website performance improvements.</li>
-  <li> Now almost all charts are being loaded on click event.</li>
-  <li> Server-side security upgrades.</li>
+  <li>The Project was rewritten, 20% less code.</li>
+  <li>Translation from LT to EN.</li>
+  <li>Upgraded from amCharts 3 to amCharts 4.</li>
+  <li>Updated web-scraping code to be more robust.</li>
+  <li>Math calculations now are done on server-side.</li>
+  <li>Website performance improvements.</li>
+  <li>Now almost all charts are being loaded on click event.</li>
+  <li>Server-side security upgrades.</li>
+</ul>
+
+<h3> CHANGELOG 27/03/2021</h3>
+<ul>
+  <li>Fixed grammar mistakes.</li>
+  <li>Fixed project link.</li>
 </ul>
