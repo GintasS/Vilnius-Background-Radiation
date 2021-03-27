@@ -5,8 +5,8 @@
 ## Jump to...
 
   - [Intro](#intro)
-  - [Media](#media)
   - [Sources](#sources)
+  - [Media](#media)
   - [Changelog](#changelog)
   
 ## <a name="Intro"></a>Intro
