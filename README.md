@@ -11,7 +11,7 @@
   
 ## <a name="Intro"></a>Intro
 
-<p>This is a scientific project about Vilnius background radiation, where you can find daily radiation values for Vilnius city!<br>
+<p>This is a scientific project about Vilnius background radiation, where you can find daily radiation values for Vilnius City!<br>
 Here the website posts radiation data statistics and analysis.<br>
 You can visit website here: <a href="http://vilniausfonas.info/en/radiation/" target="_blank">url</a>
 </p>
@@ -47,13 +47,12 @@ You can visit website here: <a href="http://vilniausfonas.info/en/radiation/" ta
 
 <h3> CHANGELOG 12/12/2018</h3>
 <ul>
-  <li> Project was rewriten, 20% less code.</li>
+  <li> The Project was rewritten, 20% less code.</li>
   <li> Translation from LT to EN</li>
   <li> Upgraded from amCharts 3 to amCharts 4.</li>
   <li> Updated web-scraping code to be more robust.</li>
   <li> Math calculations now are done on server-side.</li>
   <li> Website performance improvements.</li>
-  <li> Now allmost all charts are being loaded on click event.</li>
-  <li> Server-side security upgrades.</li.
-  <li> And much more!</li>
+  <li> Now almost all charts are being loaded on click event.</li>
+  <li> Server-side security upgrades.</li>
 </ul>
