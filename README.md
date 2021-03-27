@@ -13,17 +13,17 @@
 
 <p>This is a scientific project about Vilnius background radiation, where you can find daily radiation values for Vilnius City!<br>
 Here the website posts radiation data statistics and analysis.<br>
-You can visit website here: <a href="http://vilniausfonas.info/en/radiation/" target="_blank">url</a>
+You can visit website here: <a href="http://radiation.gsvedas.com/" target="_blank">url</a>
 </p>
 
 ## <a name="Sources"></a>Sources
 
 <ul>
-  <li>Radiation data - <a href="https://www.facebook.com/VilniausRadiacinisFonas/" target="_blank">facebook.com</a></li>
-  <li>Weather data - <a href="http://www.accuweather.com/lt/" target="_blank">accuweather.com</a></li>
-  <li>Solar flux data(or Sun data) - <a href="ftp://ftp.geolab.nrcan.gc.ca/data/solar_flux/daily_flux_values/">ftp://ftp.geolab.nrcan.gc.ca/data/solar_flux/daily_flux_values/</a></li>
-  <li>Day length data from here: <a href="https://day.lt/diena/" target="_blank">day.lt</a></li>
-  <li>Background photos - <a href="http://vilniausfonas.info/en/radiation/" target="_blank">url</a></li>
+  <li>Radiation data - <a href="https://www.facebook.com/VilniausRadiacinisFonas/" target="_blank">facebook.com</a>.</li>
+  <li>Weather data - <a href="http://www.accuweather.com/lt/" target="_blank">accuweather.com</a>.</li>
+  <li>Solar flux data(or Sun data) - <a href="ftp://ftp.geolab.nrcan.gc.ca/data/solar_flux/daily_flux_values/">ftp://ftp.geolab.nrcan.gc.ca/data/solar_flux/daily_flux_values/</a>.</li>
+  <li>Day length data from here: <a href="https://day.lt/diena/" target="_blank">day.lt</a>.</li>
+  <li>Background photos - <a href="http://vilniausfonas.info/en/radiation/" target="_blank">url</a>.</li>
 </ul>
 
 ## <a name="Media"></a>Media
@@ -48,7 +48,7 @@ You can visit website here: <a href="http://vilniausfonas.info/en/radiation/" ta
 <h3> CHANGELOG 12/12/2018</h3>
 <ul>
   <li> The Project was rewritten, 20% less code.</li>
-  <li> Translation from LT to EN</li>
+  <li> Translation from LT to EN.</li>
   <li> Upgraded from amCharts 3 to amCharts 4.</li>
   <li> Updated web-scraping code to be more robust.</li>
   <li> Math calculations now are done on server-side.</li>
