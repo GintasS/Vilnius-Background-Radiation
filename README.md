@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>Vilnius background radiation</h2>
+  <h2>Vilnius Background Radiation</h2>
 </div>
 
 ## Jump to...
